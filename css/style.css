@@ -1,0 +1,47 @@
+/* Simple selectors */
+/* 1)element */
+personal{
+	width:100px;
+}
+section{
+	width:800px;
+	margin-left:200px;
+}
+h2{
+	text-align:center;
+	color:blue;
+	text-decoration:underline;
+}
+h3{
+	color:blue;
+	text-decoration:underline;
+}
+/* 2)class */
+.imag{
+	float:right;
+	margin-top:-40px;
+	margin-right:40px;
+}
+/* 3)id */
+#fot{
+	text-align:right;
+}
+/* 4)grouping */
+table,td,th{
+	border:2px solid black;
+	border-collapse:collapse;
+	padding:10px;
+	text-align:center;
+	width:800px;
+}
+.pr, .t1, .inf, .pw, .fin, .ta1{
+	margin-left:50px;
+}
+/* universal */
+section{
+	background-color:aqua;
+	width:60%;
+	margin-left:275px;
+}
+
+
